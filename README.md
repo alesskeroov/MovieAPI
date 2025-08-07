@@ -34,7 +34,7 @@ This project is a simple movie catalog backend built with ASP.NET Core Web API. 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/MovieAPI.git
+    git clone https://github.com/alesskeroov/MovieAPI.git
     ```
 
 2. Navigate into the project folder:
