@@ -1,6 +1,6 @@
 # MovieAPI Backend
 
-This project is a simple movie catalog backend built with ASP.NET Core Web API. It features **JWT Authentication** and **role-based authorization** with Admin and User roles.
+This project is a simple movie catalog backend built with ASP.NET Core Web API. It features **JWT Authentication**, **role-based authorization**, and **AutoMapper** for clean and efficient data mapping between entities and DTOs.
 
 ## Technologies Used
 
@@ -9,6 +9,7 @@ This project is a simple movie catalog backend built with ASP.NET Core Web API. 
 - SQL Server
 - JWT Authentication
 - Role-based Authorization (Admin and User roles)
+- **AutoMapper** for mapping domain models to DTOs and vice versa
 
 ## Features
 
@@ -60,6 +61,7 @@ This project is a simple movie catalog backend built with ASP.NET Core Web API. 
 
 - The `.vs/` and other build folders are excluded via `.gitignore`.
 - To obtain a JWT token, use the `/api/auth/login` endpoint.
+- **AutoMapper** is used to simplify and centralize the mapping logic between data entities and DTOs, improving code maintainability and reducing boilerplate.
 
 ---
 
